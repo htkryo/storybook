@@ -98,7 +98,7 @@ export const HeaderCrewDropdown: VFC<Props> = ({
               <MenuListItemIcon themes={theme}>
                 <FaPaperPlaneIcon />
               </MenuListItemIcon>
-              SmartHR に招待
+              Site に招待
             </MenuListItemButton>
           </MenuListItem>
         </MenuList>

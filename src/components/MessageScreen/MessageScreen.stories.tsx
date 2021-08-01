@@ -13,17 +13,17 @@ storiesOf('MessageScreen', module)
     const themes = useTheme()
     return (
       <MessageScreen
-        title="SmartHR は現在メンテナンス中です"
+        title="このサイト は現在メンテナンス中です"
         links={[
           {
-            label: 'SmartHR お知らせ',
+            label: 'Site お知らせ',
             url: 'http://example.com',
             target: '_blank',
           },
         ]}
       >
         <Description themes={themes}>
-          いつも SmartHR をご利用いただきありがとうございます。
+          いつも このサイト をご利用いただきありがとうございます。
           <br />
           ただいまメンテナンスのため、一時サービスを停止しております。
           <br />

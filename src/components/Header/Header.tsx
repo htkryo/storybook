@@ -69,7 +69,7 @@ export const Header: VFC<Props & ElementProps> = ({
       <HeaderColumn>
         <HeaderLogo
           onClick={onClickLogo}
-          aria-label="SmartHR"
+          aria-label="Site"
           themes={theme}
           className={classNames.logoButton}
         >

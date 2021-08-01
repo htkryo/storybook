@@ -8,19 +8,19 @@ const sampleItems = [
     id: 'id-1',
     text: 'コメントテキストテキストテキストテキストテキストテキスト',
     date: '2020/4/15 16:20:00',
-    author: 'test@smarthr.co.jp',
+    author: 'test@example.co.jp',
   },
   {
     id: 'id-2',
     text: 'コメントテキストテキストテキストテキストテキストテキスト',
     date: '2020/4/15 16:20:00',
-    author: 'test@smarthr.co.jp',
+    author: 'test@example.co.jp',
   },
   {
     id: 'id-3',
     text: 'コメントテキストテキストテキストテキストテキストテキスト',
     date: '2020/4/15 16:20:00',
-    author: 'test@smarthr.co.jp',
+    author: 'test@example.co.jp',
   },
 ]
 

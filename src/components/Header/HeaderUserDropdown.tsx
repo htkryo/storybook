@@ -9,7 +9,6 @@ import {
   FaBuildingIcon,
   FaCaretDownIcon,
   FaCogIcon,
-  FaGraduationCapIcon,
   FaPowerOffIcon,
   FaUserAltIcon,
 } from '../Icon'
@@ -128,21 +127,6 @@ export const HeaderUserDropdown: VFC<Props> = ({
           <MenuListItem role="menuitem">
             <MenuListItemDivider themes={theme} role="separator" />
           </MenuListItem>
-
-          {isAdmin && (
-            <MenuListItem role="menuitem">
-              <MenuListItemButton
-                onClick={onClickSchool}
-                themes={theme}
-                className={classNames.schoolButton}
-              >
-                <MenuListItemIcon themes={theme}>
-                  <FaGraduationCapIcon />
-                </MenuListItemIcon>
-                SmartHR スクール
-              </MenuListItemButton>
-            </MenuListItem>
-          )}
 
           <MenuListItem role="menuitem">
             <MenuListItemButton
