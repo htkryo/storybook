@@ -23,4 +23,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           # Chromatic projectToken, refer to the manage page to obtain it.
-          projectToken: ${{ fc0c2f98fd2b }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
